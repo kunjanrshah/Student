@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:stretchColumns="0">
+		<TextView android:text="Student Information" android:id="@+id/lblinfo"
+			android:textColor="#ff0000" android:textSize="22dip"
+			android:textStyle="bold" android:layout_marginTop="7dip"
+			android:gravity="center"></TextView>
+		<TableRow>
+			<TextView android:text="Roll No:-" android:textSize="18dip" android:id="@+id/lblroll"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txtrollno"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Name:-" android:textSize="18dip" android:id="@+id/lblname"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:id="@+id/txtname" android:layout_width="190dip"
+				android:layout_height="40dip" android:layout_marginRight="10dip" />
+		</TableRow>
+		
+		<TableRow>
+			<TextView android:text="Course:-" android:textSize="18dip" android:id="@+id/lblcourse"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:id="@+id/txtcourse" android:layout_width="190dip"
+				android:layout_height="40dip" android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Semester:-" android:textSize="18dip" android:id="@+id/lblsem"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txtsem"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Subject 1:-" android:textSize="18dip" android:id="@+id/lblsub1"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txtsub1"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Subject 2:-" android:textSize="18dip" android:id="@+id/lblsub2"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txtsub2"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Subject 3:-" android:textSize="18dip" android:id="@+id/lblsub3"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txtsub3"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Subject 4:-" android:textSize="18dip" android:id="@+id/lblsub4"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txtsub4"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Total:-" android:textSize="18dip" android:id="@+id/lbltotal"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="190dip"
+				android:layout_height="40dip" android:id="@+id/txttotal"
+				android:layout_marginRight="10dip" />
+		</TableRow>
+		<!--<TableLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TableRow>
+		<Button android:id="@+id/btnsave" android:text="Save"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="20dip" android:textStyle="bold"/>
+		<Button android:id="@+id/btnselect" android:text="Select"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="20dip" android:textStyle="bold"/>
+		<Button android:id="@+id/btnupdate" android:text="Update"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="20dip" android:textStyle="bold"/>
+		<Button android:id="@+id/btndelete" android:text="Delete"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="20dip" android:textStyle="bold"/>
+		</TableRow>
+		</TableLayout>-->
+		
+	</TableLayout>
+	
+</ScrollView>
